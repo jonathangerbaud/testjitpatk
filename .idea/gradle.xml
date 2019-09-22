@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/plugins" />
             <option value="$PROJECT_DIR$/plugins/sublib" />
             <option value="$PROJECT_DIR$/plugins/sublib2" />
+            <option value="$PROJECT_DIR$/plugins/sublib3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
