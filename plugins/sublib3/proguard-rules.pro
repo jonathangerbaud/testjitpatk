@@ -20,4 +20,4 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep com.toolsfordevs.sublib3.Sublib3
+-keep class com.toolsfordevs.sublib3.** { *; }
