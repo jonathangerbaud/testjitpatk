@@ -1,4 +1,4 @@
-package com.toolsfordevs.testjitpakt
+package com.toolsfordevs.sublib
 
 import org.junit.Test
 

@@ -1,2 +1,2 @@
-include ':app', ':liba', ':libb'
-rootProject.name='TestJitpakt'
+include ':app', ':liba', ':libb', ':plugins:sublib', ':plugins:sublib2'
+rootProject.name = 'TestJitpakt'

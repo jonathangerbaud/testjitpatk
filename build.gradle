@@ -27,15 +27,15 @@ allprojects {
 
 subprojects {
 
-    if (project.name != "app") {
+    if (project.name != "app" && project.name != "plugins") {
         project.ext {
-            mavDevelopers = ["JG":"Jonathan Gerbaud"]
+            mavDevelopers = ["JG": "Jonathan Gerbaud"]
             mavSiteUrl = "https://wwww.toolsfordevs.com/fast/"
             mavGitUrl = 'https://github.com/jonathangerbaud/testjitpatk.git'
             mavProjectName = project.name
             mavPublishToInternalRepo = false
             mavRepoInternalUrl = "path/to/internal/repo"
-            mavLibraryLicenses = ["Apache-2.0":'http://www.apache.org/licenses/LICENSE-2.0.txt']
+            mavLibraryLicenses = ["Apache-2.0": 'http://www.apache.org/licenses/LICENSE-2.0.txt']
             mavLibraryDescription = "Test Jitpack dev for gradle and android"
         }
     }
