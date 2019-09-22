@@ -1,2 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.toolsfordevs.sublib2" />
+        package="com.toolsfordevs.sublib2" >
+
+    <application>
+        <activity android:name=".TestActivity" />
+    </application>
+</manifest>
