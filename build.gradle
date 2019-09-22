@@ -26,15 +26,21 @@ allprojects {
 }
 
 subprojects {
-    project.ext {
-        mavDevelopers = ["JG":"Jonathan Gerbaud"]
-        mavSiteUrl = "https://wwww.toolsfordevs.com/fast/"
-        mavGitUrl = 'https://github.com/jonathangerbaud/testjitpatk.git'
-        mavProjectName = project.name
-        mavPublishToInternalRepo = false
-        mavRepoInternalUrl = "path/to/internal/repo"
-        mavLibraryLicenses = ["Apache-2.0":'http://www.apache.org/licenses/LICENSE-2.0.txt']
-        mavLibraryDescription = "Test Jitpack dev for gradle and android"
+
+    if (project.name != "app") {
+        project.ext {
+            mavDevelopers = ["JG":"Jonathan Gerbaud"]
+            mavSiteUrl = "https://wwww.toolsfordevs.com/fast/"
+            mavGitUrl = 'https://github.com/jonathangerbaud/testjitpatk.git'
+            mavProjectName = project.name
+            mavPublishToInternalRepo = false
+            mavRepoInternalUrl = "path/to/internal/repo"
+            mavLibraryLicenses = ["Apache-2.0":'http://www.apache.org/licenses/LICENSE-2.0.txt']
+            mavLibraryDescription = "Test Jitpack dev for gradle and android"
+        }
+    }
+    if (project.name == 'libb') {
+        project.ext.mavProjectName = 'superlib'
     }
 }
 
