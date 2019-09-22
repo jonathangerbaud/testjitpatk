@@ -12,6 +12,7 @@ class TestActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
 
-        sublib2.sublib.doSomeStuff()
+        val a = sublib2
+        //sublib2.sublib.doSomeStuff()
     }
 }
