@@ -29,4 +29,6 @@ dependencies {
     implementation 'androidx.core:core-ktx:1.0.2'
 }
 
+project.ext.mavProjectName = 'superlib'
+
 apply from: 'https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle'

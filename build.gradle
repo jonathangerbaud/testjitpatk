@@ -39,9 +39,6 @@ subprojects {
             mavLibraryDescription = "Test Jitpack dev for gradle and android"
         }
     }
-    if (project.name == 'libb') {
-        project.ext.mavProjectName = 'superlib'
-    }
 }
 
 task clean(type: Delete) {
