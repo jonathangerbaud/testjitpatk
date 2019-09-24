@@ -1,5 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-group = 'com.github.jonathangerbaud'
+group = 'com.github.jonathangerbaud.test'
 version = '1.0.0'
 
 buildscript {
